@@ -34,18 +34,20 @@
 #URLS=("https://easylist-downloads.adblockplus.org/easylist.txt" "https://easylist-downloads.adblockplus.org/advblock.txt")
 URLS=(
     # Big ones
-	"https://easylist-downloads.adblockplus.org/easylist.txt"
-	"https://easylist-downloads.adblockplus.org/advblock.txt"
-	"https://secure.fanboy.co.nz/fanboy-adblock.txt"
+	#"https://easylist-downloads.adblockplus.org/easylist.txt"
+	#"https://easylist-downloads.adblockplus.org/advblock.txt"
+	#"https://secure.fanboy.co.nz/fanboy-adblock.txt"
 	# Supplement EasyList: Anti privacy & german
 	"https://easylist-downloads.adblockplus.org/easyprivacy.txt"
 	"https://easylist-downloads.adblockplus.org/easylistgermany.txt"
 	# Supplement fanboy: Adult ads & annoyances
-	"https://secure.fanboy.co.nz/fanboy-adblocklist-addon.txt"
-	"https://secure.fanboy.co.nz/fanboy-adult.txt"
+	#"https://secure.fanboy.co.nz/fanboy-adblocklist-addon.txt"
+	#"https://secure.fanboy.co.nz/fanboy-adult.txt"
 	# Misc
-	"http://rickrolldb.com/ricklist.txt"
-	"http://malwaredomains.lanik.us/malwaredomains_full.txt"
+	#"http://rickrolldb.com/ricklist.txt"
+	#"http://malwaredomains.lanik.us/malwaredomains_full.txt"
+	#china
+	"https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
 )
 # privoxy config dir (default: /etc/privoxy/)
 CONFDIR=/etc/privoxy
