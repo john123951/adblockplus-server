@@ -7,7 +7,7 @@ Run the below docker in any one of machine in your network.
 
     docker run -d --restart=always --cap-add=NET_ADMIN \
     -p 8118:8118 \
-    --name adblock arulrajnet/adblockplus-server:latest
+    --name adblock john123951/adblockplus-server-china:latest
 
 Then add this as proxy server in all other system. For ex `192.168.0.10:8118`
 
@@ -24,7 +24,7 @@ In that way you have to manually configure proxy in each every client. For examb
 
 In this method client must know proxy details. 
 
-![Alt](images/adblock-server-forward.png "Forward Proxy")
+![Alt](https://raw.githubusercontent.com/john123951/adblockplus-server/master/images/adblock-server-forward.png "Forward Proxy")
 
 Note: There is no gureentee App in your smartphone also follow the proxy which is set in your browser. Refer this [Stackoverflow thread][so-thread]
 
@@ -32,7 +32,7 @@ Note: There is no gureentee App in your smartphone also follow the proxy which i
 
 In this client does not aware of proxy is there in between. So you no need to configure proxy in all client.
 
-![Alt](images/adblock-server-reverse.png "Transparent Proxy")
+![Alt](https://raw.githubusercontent.com/john123951/adblockplus-server/master/images/adblock-server-reverse.png "Transparent Proxy")
 
 In this you have to route traffic from WiFi router to proxy server then reach the internet.
 
@@ -48,7 +48,7 @@ Here is my setup
 * Internet on Eth0 port (My ISP giving direct fibre connection)
 * WiFi Hotspot in wlan0. Refer setup [wifi hotspot ubuntu][wifi-hotspot-ubuntu]
 
-![Alt](images/adblock-server-home.png "My Home Setup")
+![Alt](https://raw.githubusercontent.com/john123951/adblockplus-server/master/images/adblock-server-home.png "My Home Setup")
 
 Install Docker
 
